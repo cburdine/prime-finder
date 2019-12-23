@@ -33,7 +33,7 @@ prime-finder [-q] [-n number] output_file
 
     -q: runs in quiet mode; will not write primes to stdout also.
 
-    -n: must be followed by a n integer greater than 0.
+    -n: must be followed by an integer greater than 0.
 
     output_file: the output file.
 ```
