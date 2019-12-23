@@ -20,9 +20,9 @@ guaranteed to be discovered.
 
 ## Compile Instructions
 If GNU Make and the gcc compiler are both installed, one simply needs to run the ``make`` command in
-the project directory. By default will compile with the gnu89 standard linked with the pthread and math library.
+the project directory. This default target will compile with the gnu89 standard linked with the pthread and math library.
 
-For other compilers, there is no guarantee that the program will compile without slight modification.
+For other compilers or standards, there is no guarantee that the program will compile without slight modification.
 However, if you do use a different compiler be sure to link the pthread and math libraries (``-lpthread -lm``).
 
 ## Execution
